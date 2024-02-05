@@ -1,15 +1,15 @@
-## Set up proxy
+## Set up proxy :rocket:
 --------------------
 * set HTTPS_PROXY=http://es001-surf.zone2.proxy.allianz:8080
 * set HTTP_PROXY=http://es001-surf.zone2.proxy.allianz:8080
 * set PROXY_USER=eXXXXXX
-* set PROXY_PASSWORD=pwd
+* set PROXY_PASSWORD=pwd :
 
-## Install environment
+## Install environment 
 ----------------------
-* conda env create -p .\venv -f .\bin\local\environment.yml
+* conda env create -p .\venv -f .\bin\local\environment.yml :relaxed: 
 
-## Github
+## Github 
 ----------------------
 * git checkout name_rama_interes_remoto **Cambia de rama en el repo local**
 * git merge name_rama_remoto  **Fusiona la rama remota con la rama local actual**
