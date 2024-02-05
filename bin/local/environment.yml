@@ -1,0 +1,6 @@
+dependencies:
+  - python=3.9
+  - jupyter
+  - pip
+  - pip:
+    - -r ../../requirements.txt
