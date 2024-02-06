@@ -20,6 +20,15 @@
 * git fetch origin **Actualiza el repositorio local, pero no actualiza los ficheros automaticamente**
 * git push origin name_rama_remota **Actualiza inmediatamente el repo local con la rama especificada**
 
+**Gestión de issues y pull request:**
+
+1. Generar un issue en la página web de github
+2. Trabajar los cambios sobre la rama que gestionará el issue
+3. Agregar los ficheros modificados con el comando git add
+4. Hacer commit pero es muy importante incluir en el comentario el número del issue EX: "Resuleve #10" si el issue es el 10
+5. Hacer push sobre tu rama (la rama encargada del issue)
+6. Crear la pull request (base: Main) (compare : rama encargada del issue)
+7. El revisor se encargará de validar que los cambios propuestos estan ok y entonces aceptará cambio y guardara la pull request.
 
 ## Developers
 ----------------------
