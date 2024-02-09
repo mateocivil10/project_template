@@ -18,7 +18,7 @@
 * git add . **Agrega todos los cambios ante de un commit**
 * git commit -m "Mensaje descriptivo del commit" **Crea un commit con ese mensaje**
 * git fetch origin **Actualiza el repositorio local, pero no actualiza los ficheros automaticamente**
-* git push origin name_rama_remota **Actualiza inmediatamente el repo local con la rama especificada**
+* git pull origin name_rama_remota **Actualiza inmediatamente el repo local con la rama especificada**
 
 **Gestión de issues y pull request:**
 
